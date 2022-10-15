@@ -1,5 +1,4 @@
-#[macro_use]
-extern crate text_io;
+use text_io::read;
 
 fn palindrome(mut x: i32) {
     let mut num: i32 = 0; let xc = x;
