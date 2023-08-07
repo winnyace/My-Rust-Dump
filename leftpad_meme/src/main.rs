@@ -10,6 +10,8 @@ fn leftpad(input: String, len: i32, ch: char) -> String {
 }
 
 fn main() {
+    println!("Give me a string and a number:");
     let input: String = read!("{}\n");
-    println!("New string: {}", leftpad(input, 10, ' '));
+    let num: i32 = read!("{}\n");
+    println!("New string: {}", leftpad(input, num, ' '));
 }
